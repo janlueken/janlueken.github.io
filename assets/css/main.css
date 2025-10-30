@@ -1745,9 +1745,17 @@ input, select, textarea {
 /* Image */
 
 	.image {
+		
 		display: inline-block;
 		border: 0;
 	}
+
+		.image.custom {
+			position: static;
+			display: block;
+			width: 100%;
+			margin: 0 0 0 0;
+		}
 
 		.image img {
 			display: block;
@@ -1759,11 +1767,6 @@ input, select, textarea {
 			height: 48px;
 			background: #f00;
 		}
-
-			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
-			}
 
 		.image.fit {
 			display: block;
@@ -2096,7 +2099,7 @@ input, select, textarea {
 
 	#logo {
 		position: relative;
-		margin: 1.75em 1.5em 1.5em 1.5em;
+		margin: 1em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
 	}
@@ -2175,7 +2178,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		margin-left: 375px;
+		margin-left: 0;
 		text-align: center;
 		background-color: #dce3e2;
 		padding: 3em 0 4em 0;
@@ -2248,7 +2251,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				/* background-image: url("../../images/banner.jpg"); */
 			}
 
 			#main > section.two {
@@ -2282,7 +2285,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				margin-left: 300px;
+				margin-left: 0;
 			}
 
 		/* Main */
@@ -2365,7 +2368,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				margin-left: 20%;
+				margin-left: 0;
 			}
 
 		/* Main */
